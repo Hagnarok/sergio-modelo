@@ -1,0 +1,9 @@
+package br.edu.unifio.eventos.repositorios;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.edu.unifio.eventos.entidades.Local;
+
+public interface LocalRepository extends JpaRepository<Local, Integer> {
+
+}
